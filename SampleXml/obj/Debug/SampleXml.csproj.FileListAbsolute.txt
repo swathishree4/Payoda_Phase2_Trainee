@@ -1,0 +1,10 @@
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\bin\Debug\SampleXml.exe.config
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\bin\Debug\SampleXml.exe
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\bin\Debug\SampleXml.pdb
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.csproj.AssemblyReference.cache
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.Form1.resources
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.Properties.Resources.resources
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.csproj.GenerateResource.cache
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.csproj.CoreCompileInputs.cache
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.exe
+C:\Users\swathishree.s\source\repos\SampleXml\SampleXml\obj\Debug\SampleXml.pdb
