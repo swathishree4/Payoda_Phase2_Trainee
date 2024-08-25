@@ -1,0 +1,14 @@
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.AssemblyInfoInputs.cache
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.AssemblyInfo.cs
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.csproj.CoreCompileInputs.cache
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\bin\Debug\net8.0\WeekTask.exe
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\bin\Debug\net8.0\WeekTask.deps.json
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\bin\Debug\net8.0\WeekTask.runtimeconfig.json
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\bin\Debug\net8.0\WeekTask.dll
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\bin\Debug\net8.0\WeekTask.pdb
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.dll
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\refint\WeekTask.dll
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.pdb
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\WeekTask.genruntimeconfig.cache
+C:\Users\swathishree.s\source\repos\WeekTask\WeekTask\obj\Debug\net8.0\ref\WeekTask.dll
