@@ -1,0 +1,44 @@
+<p id="uni">SPORTS</p>
+Enter Your Name:
+<input type="text" (input)="show($event)">
+<p>{{text}}
+    {{text1}} 
+</p>
+
+<table class="table table-hover table table-bordered">
+    <thead class="table dark">
+    <tr>
+        <th>Captian</th>
+        <th>No_Of_Players</th>
+        <th>Score</th>
+        <th>Logo</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let sp of lstsport ">
+        <td>
+            {{sp.Captian}}
+        </td>
+        <td>
+            {{sp.No_of_players}}
+        </td>
+        <td>
+            {{sp.Score}}
+        </td>
+        <td>
+            <img [src]="sp.Logo" width="200px"/>
+        </td>
+        <td>
+            <button class="btn btn-success" (click)="display(sp)">Click to view </button>
+            
+        </td>
+        
+    </tr>
+    </tbody>
+</table>
+<div class="res">
+    <p>{{answer}}</p>
+  
+
+       
+</div>

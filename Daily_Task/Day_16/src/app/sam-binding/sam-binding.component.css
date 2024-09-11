@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    background-color:  plum;
+    border:2px solid black;
+}
+img{
+    margin:0px 300px 0px 300px;
+}
+
+.red{
+    font-size: large;
+    border: 4px dashed black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,28 @@
+<p>sam-binding works!</p>
+<!-- <p>{{fname}} {{lname}}</p> -->
+<!-- <img src="public/nature.jfif" alt="picture"/> -->
+<img [src]="imageurl" width="400px"/>
+ <!-- property binding -->
+<h1 [innerText]="text"></h1>
+
+<!-- event binding -->
+<button (click)="counter()">Click</button>
+<p>Counter value:{{count}}</p>
+<button class="btn btn-success" [disabled]="butval" (click)="display()">Click</button>
+<p>{{fname}} {{lname}}</p>
+<input type="text" (input)="show($event)">
+<p>{{text}}</p>
+<!--twoway binding-->
+
+<input type="text" name="value" [(ngModel)]="value">
+<p>{{value}}</p>
+
+<!--styling class binding,stylebinding-->
+<p [className]="'demo'">class binding</p>
+<p ngClass="'red">class binding with ng class</p>
+
+
+<p [style.background-color]="'grey'">style binding</p>
+<div [ngStyle]="{'color':'blue','font-size':'40px'}">
+    <p>this is ngstyle</p>
+</div>

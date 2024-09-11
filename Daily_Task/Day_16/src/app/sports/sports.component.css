@@ -1,0 +1,30 @@
+#uni{
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    COLOR:BLACK;
+    text-decoration: underline;
+}
+th{
+    background-color: black;
+    color:white;
+}
+th:hover{
+    background-color: white;
+    color:black;
+}
+td,th{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    color: black;
+}
+p{
+    font-size: 40px;
+    font-weight: bolder;
+    padding:20px;
+}
