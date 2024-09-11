@@ -1,0 +1,14 @@
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\bin\Debug\net8.0\TestTask.exe
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\bin\Debug\net8.0\TestTask.deps.json
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\bin\Debug\net8.0\TestTask.runtimeconfig.json
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\bin\Debug\net8.0\TestTask.dll
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\bin\Debug\net8.0\TestTask.pdb
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.AssemblyInfoInputs.cache
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.AssemblyInfo.cs
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.csproj.CoreCompileInputs.cache
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.dll
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\refint\TestTask.dll
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.pdb
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\TestTask.genruntimeconfig.cache
+C:\Users\swathishree.s\Desktop\Assessment\c# Assessment\TestTask\TestTask\obj\Debug\net8.0\ref\TestTask.dll
