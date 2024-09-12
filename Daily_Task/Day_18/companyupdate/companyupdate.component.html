@@ -1,0 +1,8 @@
+<p>companyupdate works!</p>
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="name">Enter the Company name:</label>
+        <input type="text" id="name" class="form-control" name="name" [(ngModel)]="company.companyName" required >
+    </div>
+    <button type="submit" class="btn btn-primary">Add Company</button>
+</form>

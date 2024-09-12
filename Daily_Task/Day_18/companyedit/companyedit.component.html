@@ -1,0 +1,11 @@
+<div class="jumbotron text-center">
+<p class="h1">Update Company</p>
+<form (ngSubmit)="onUpdate()">
+    <div class="form-group">
+        <label for="compName">Enter the company Name</label>
+        <input type="text" class="form-control" id="compName" name="compName" [(ngModel)]="company.companyName" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Update Company</button>
+</form>
+
+</div>

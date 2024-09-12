@@ -1,0 +1,23 @@
+<h3 class="text-center">Company List</h3>
+<div class="container">
+  <table class="table table-striped table-bordered">
+    <thead >
+      <tr>
+        <th>Company ID</th>
+        <th>Company Name</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let lstcompany of data">
+        <td>{{lstcompany.companyId}}</td>
+        <td>{{lstcompany.companyName}}</td>
+        <td><button class="btn btn-info mr-2" (click)="viewDetails(lstcompany.companyId)" >Details</button>
+        <button class="btn btn-warning mr-2" (click)="viewEdit(lstcompany.companyId)">Edit</button>
+        <button class="btn btn-danger mr-2" (click)="deleteCompany(lstcompany.companyId)">Delete</button></td>
+       
+      </tr>
+    </tbody>
+  </table>
+</div>
+<button class="btn btn-primary" (click)="addcompany()">Add</button>
