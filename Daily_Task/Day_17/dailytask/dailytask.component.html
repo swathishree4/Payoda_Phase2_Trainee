@@ -1,0 +1,164 @@
+<div *ngIf="userstatus==='admin';else nonadmin">
+    <div class="jumbotron">
+    <p class="bg-primary text-center">ADMIN DASHBOARD</p>
+    </div>
+  
+    <form #adddress="ngForm" >
+        <div>
+            <label for="idno">Enter the ID:</label>
+            <input type="number" id="idno" name="idno" ngModel required #idno="ngModel" >
+            <div *ngIf="idno.invalid && idno.touched">
+                <p>Id must be required</p>
+            </div>
+        </div>
+        <div>
+            <label for="name">Enter the item name:</label>
+            <select>
+                <option>--select--</option>
+                <option value="Kurta">Kurta</option>
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Party Wear">Party Wear</option>
+            </select>
+        </div>
+        <div>
+            <label for="rating">Enter the rating:</label>
+            <input type="number" id="rating" name="rating" ngModel required #rating="ngModel" min="1" max="10">
+            <div *ngIf="rating.invalid && rating.touched">
+               You enter Negative number and Empty field
+            </div>
+        </div>
+        <div>
+            <label for="stock">Enter the stock:</label>
+            <input type="number" id="stock" name="stock" ngModel required #stock="ngModel" min="0">
+            <div *ngIf="stock.invalid && stock.touched">
+                You entered negative number and empty field
+            </div>
+        </div>
+        <div>
+            <label for="price">Enter the price:</label>
+            <input type="number" id="price" name="price" ngModel required min="100" max="10000" #price="ngModel">
+            <div *ngIf="price.invalid && price.touched">
+                Price must be minimum 100 to 10000.The field is empty
+            </div>
+        </div>
+        <div>
+            <label for="img">Upload the product</label><br>
+            <input type="file" id="img" name="img" ngModel  #img="ngModel">
+            <div *ngIf="img.invalid && img.touched">
+
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="adddress.invalid">Add item</button>
+        <button (click)="status('guest')">Back To DashBoard</button>
+    </form>
+    
+
+</div>
+<ng-template #nonadmin>
+    <div *ngIf="userstatus==='user';else guest">
+        <p>User Dashboard</p>
+        <TABLE class="table table-hover table table-bordered">
+            <tr class="table table-dark">
+                <th>ITEM</th>
+                <th>PRICE</th>
+                <th>STOCK</th>
+                <th>RATING</th>
+                <th></th>
+                <th>IMAGE</th>
+            </tr>
+            <tr *ngFor="let s of lists">
+                <td>
+                    {{s.ITEM}}
+                </td>
+                <td>
+                    {{s.PRICE}}
+                </td>
+                <td *ngIf="s.STOCK>0; else outOfStock">{{ s.STOCK }}</td>
+                 <ng-template #outOfStock>
+                <td class="text-danger font-weight-bold">Out of Stock</td>
+            </ng-template>
+                <td>
+                    {{s.RATING}}
+                </td>
+                
+                <td>
+                    <img [src]="s.IMAGE" width="100px" height="100px"/>
+                </td>
+                <td>
+                    <button (click)="add(s)" >Add To Cart</button>
+                    <button (click)="buy(s)" [disabled]="s.STOCK <= 0">Buy</button>
+                </td>
+            </tr>
+        </TABLE>
+        <table class="table table-bordered ">
+            <tr class="table table-dark">
+                <th>ITEM</th>
+                <th>PRICE</th>
+                <th>STOCK</th>
+                <th>RATING</th>
+                <th>IMAGE</th>
+                <th></th>
+            </tr>
+            <tr *ngFor="let s of cartprod">
+                <td>
+                    {{s.ITEM}}
+                </td>
+                <td>
+                    {{s.PRICE}}
+                </td>
+                <td *ngIf="s.STOCK>0; else outOfStock">{{ s.STOCK }}</td>
+                <ng-template #outOfStock>
+               <td class="text-danger font-weight-bold">Out of Stock</td>
+           </ng-template>
+               
+                <td>
+                    {{s.RATING}}
+                </td>
+                <td>
+                    <img [src]="s.IMAGE" width="100px" height="100px">
+                </td>
+                <td>
+                    <button (click)="remove()">Remove</button>
+                </td>
+        </table>
+        <table class="table table-bordered ">
+            <tr class="table table-dark">
+                <th>ITEM</th>
+                <th>PRICE</th>
+                
+                <th>RATING</th>
+                <th>IMAGE</th>
+                <th></th>
+            </tr>
+            <tr *ngFor="let s of buyprod">
+                <td>
+                    {{s.ITEM}}
+                </td>
+                <td>
+                    {{s.PRICE}}
+                </td>
+                
+                <td>
+                    {{s.RATING}}
+                </td>
+                <td>
+                    <img [src]="s.IMAGE" width="100px" height="100px">
+                </td>
+        </table>
+    </div>
+    <ng-template #guest>
+        <div class="jumbotron ">
+           <h1>EASY BUY</h1>
+        <button (click)="status('admin')" class="btn btn-primary text-center">Admin</button>
+        <button (click)="status('user')" class="btn btn-primary text-center">User</button>
+    </div>
+        
+    </ng-template>    
+
+</ng-template>
+
+
+
+
+
+
